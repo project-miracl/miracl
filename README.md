@@ -13,25 +13,27 @@ https://miracl.ai
 [Collection](https://huggingface.co/datasets/MIRACL/miracl-corpus) **|** Topic **|** Qrels
 
 ### Data Statistics
-#### Collection Size:
-| Language   | # of Passage | # of Docs |
-|------------|--------------|-----------|
-| Arabic (ar)     |      2061414 |    656982 |
-| Bengali (bn)  |      297,265 |    63,762 |
-| English (en)   |   32,893,221 | 5,758,285 |
-| Spanish  (es)  |   10,373,953 | 1,669,181 |
-| Persian (fa)   |    2,207,172 |   857,827 |
-| Finnish (fi)  |    1,883,509 |   447,815 |
-| French (fr)   |   14,636,953 | 2,325,608 |
-| Hindi (hi)   |      506,264 |   148,107 |
+
+#### Collection Size
+
+| Language        | # of Passage | # of Docs |
+|:----------------|-------------:|----------:|
+| Arabic (ar)     |    2,061,414 |   656,982 |
+| Bengali (bn)    |      297,265 |    63,762 |
+| English (en)    |   32,893,221 | 5,758,285 |
+| Spanish (es)    |   10,373,953 | 1,669,181 |
+| Persian (fa)    |    2,207,172 |   857,827 |
+| Finnish (fi)    |    1,883,509 |   447,815 |
+| French (fr)     |   14,636,953 | 2,325,608 |
+| Hindi (hi)      |      506,264 |   148,107 |
 | Indonesian (id) |    1,446,315 |   446,330 |
-| Japanese (ja)  |    6,953,614 | 1,133,444 |
-| Korean (ko)   |    1,486,752 |   437,373 |
-| Russian (ru)   |    9,543,918 | 1,476,045 |
-| Swahili (sw)  |      131,924 |    47,793 |
-| Telugu (te)   |      518,079 |    66,353 |
-| Thai (th)   |      542,166 |   128,179 |
-| Chinese (zh)   |    4,934,368 | 1,246,389 |
+| Japanese (ja)   |    6,953,614 | 1,133,444 |
+| Korean (ko)     |    1,486,752 |   437,373 |
+| Russian (ru)    |    9,543,918 | 1,476,045 |
+| Swahili (sw)    |      131,924 |    47,793 |
+| Telugu (te)     |      518,079 |    66,353 |
+| Thai (th)       |      542,166 |   128,179 |
+| Chinese (zh)    |    4,934,368 | 1,246,389 |
 
 ### Data Format
 Our collection data files are in `jsonlines`, compressed with `gzip`. Each line in the file are in the format of `{"docid": ..., "title": ..., "text": ...}`. An example from English collection:
