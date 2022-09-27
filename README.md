@@ -3,7 +3,7 @@
 
 ## Overview
 MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of Languages) is an WSDM 2023 Cup challenge that focuses on search across 18 different languages, which collectively encompass over three billion native speakers around the world.
-https://miracl.ai
+[miracl.ai](http://miracl.ai)
 
 <!-- If you are interested in participating, please sign up here to get access to the dataset -->
 
