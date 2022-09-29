@@ -1,20 +1,21 @@
 # MIRACL 🌍🙌🌏
 
-
 ## Overview
+
 MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of Languages) is an WSDM 2023 Cup challenge that focuses on search across 18 different languages, which collectively encompass over three billion native speakers around the world.
-[miracl.ai](http://miracl.ai)
+The website for the event can be found at [`miracl.ai`](http://miracl.ai).
+The repo provides pointers to accessing the actual dataset.
 
-<!-- If you are interested in participating, please sign up here to get access to the dataset -->
+If you're interested in hearing updates, please join our [mailing list](https://forms.gle/aCbjRQ9CPeXViWcaA).
 
-## Dataset 
+## Corpus
 
-### Download
-[Collection](https://huggingface.co/datasets/MIRACL/miracl-corpus) **|** Topic **|** Qrels
+The corpus is available as a [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl-corpus).
+So far, we have released data for the 16 "known languages".
+There remain 2 "surprise languages" that will not be released until later.
+See our release schedule [on the MIRACL website](http://miracl.ai).
 
-### Data Statistics
-
-#### Collection Size
+TODO: Crystina - write a description of the corpus?
 
 | Language        | # of Passage | # of Docs |
 |:----------------|-------------:|----------:|
@@ -35,8 +36,8 @@ MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of La
 | Thai (th)       |      542,166 |   128,179 |
 | Chinese (zh)    |    4,934,368 | 1,246,389 |
 
-### Data Format
 Our collection data files are in `jsonlines`, compressed with `gzip`. Each line in the file are in the format of `{"docid": ..., "title": ..., "text": ...}`. An example from English collection:
+
 ```
 {
     "docid": "39#0",
@@ -45,9 +46,11 @@ Our collection data files are in `jsonlines`, compressed with `gzip`. Each line 
 }
 ```
 
-<!-- ## Baselines -->
-<!-- ## Evaluation -->
-<!-- ## Submission -->
+## Relevance Judgments
 
-# Contact
+Coming soon!
+See our release schedule [on the MIRACL website](http://miracl.ai).
+
+## Contact
+
 If you have any questions, feel free to email us (project.miracl [at] gmail.com) or start a Github issue under this repository. 
