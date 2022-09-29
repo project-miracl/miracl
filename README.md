@@ -15,8 +15,21 @@ So far, we have released data for the 16 "known languages".
 There remain 2 "surprise languages" that will not be released until later.
 See our release schedule [on the MIRACL website](http://miracl.ai).
 
-TODO: Crystina - write a description of the corpus?
+The corpus are prepared from Wikipedia dumps, where we keep only the plain text information and disgard the image, table, etc.
+Each article is segmented into multiple passages via [WikiExtractor](https://github.com/attardi/wikiextractor) based on natural discourse units (e.g., `\n\n` in the wiki markup).
+We preserve the Wikipedia article title to each passage.
 
+Our collection data files are in `jsonlines`, compressed with `gzip`. Each line in the file corresponding to a passage, in the format of `{"docid": ..., "title": ..., "text": ...}`. An example from English collection:
+
+```
+{
+    "docid": "39#0",
+    "title": Albedo, 
+    "text": "Albedo (meaning 'whiteness') is the measure of the diffuse reflection of solar radiation out of the total solar radiation received by an astronomical body (e.g. a planet like Earth). It is dimensionless and measured on a scale from 0 (corresponding to a black body that absorbs all incident radiation) to 1 (corresponding to a body that reflects all incident radiation)."
+}
+```
+
+The statistics of MIRACL corpus:
 | Language        | # of Passage | # of Docs |
 |:----------------|-------------:|----------:|
 | Arabic (ar)     |    2,061,414 |   656,982 |
@@ -36,15 +49,6 @@ TODO: Crystina - write a description of the corpus?
 | Thai (th)       |      542,166 |   128,179 |
 | Chinese (zh)    |    4,934,368 | 1,246,389 |
 
-Our collection data files are in `jsonlines`, compressed with `gzip`. Each line in the file are in the format of `{"docid": ..., "title": ..., "text": ...}`. An example from English collection:
-
-```
-{
-    "docid": "39#0",
-    "title": Albedo, 
-    "text": "Albedo (meaning 'whiteness') is the measure of the diffuse reflection of solar radiation out of the total solar radiation received by an astronomical body (e.g. a planet like Earth). It is dimensionless and measured on a scale from 0 (corresponding to a black body that absorbs all incident radiation) to 1 (corresponding to a body that reflects all incident radiation)."
-}
-```
 
 ## Relevance Judgments
 
