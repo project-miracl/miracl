@@ -4,7 +4,7 @@
 
 MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of Languages) is an WSDM 2023 Cup challenge that focuses on search across 18 different languages, which collectively encompass over three billion native speakers around the world.
 The website for the event can be found at [`miracl.ai`](http://miracl.ai).
-The repo provides pointers to accessing the actual dataset.
+This repo provides pointers to accessing the actual dataset.
 
 If you're interested in hearing updates, please join our [mailing list](https://forms.gle/aCbjRQ9CPeXViWcaA).
 
@@ -12,26 +12,31 @@ If you're interested in hearing updates, please join our [mailing list](https://
 
 The corpora used in MIRACL is available as a [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl-corpus).
 So far, we have released data for the 16 "known languages".
-There remain 2 "surprise languages" that will not be released until later.
+The remaining 2 "surprise languages" will not be released until later.
 See our release schedule [on the MIRACL website](http://miracl.ai).
 
-The corpus for each language is prepared from Wikipedia dumps, where we keep only the plain text information and discard images, tables, etc.
-Each article is segmented into multiple passages via [WikiExtractor](https://github.com/attardi/wikiextractor) based on natural discourse units (e.g., `\n\n` in the wiki markup).
-Each of these passages comprise a "document" (i.e., unit) of retrieval.
+The corpus for each language is prepared from a Wikipedia dump, where we keep only the plain text and discard images, tables, etc.
+Each article is segmented into multiple passages using [WikiExtractor](https://github.com/attardi/wikiextractor) based on natural discourse units (e.g., `\n\n` in the wiki markup).
+Each of these passages comprise a "document" or unit of retrieval.
 We preserve the Wikipedia article title of each passage.
 
-Our collection data files are in `jsonlines`, compressed with `gzip`.
-Each line in the file corresponding to a passage, in the format of `{"docid": ..., "title": ..., "text": ...}`. An example from English collection:
+The corpus data files are in [JSON lines](https://jsonlines.org/) format, compressed with `gzip`.
+Each line in the file corresponds to a passage.
+Consider an example from the English corpus:
 
 ```
 {
     "docid": "39#0",
-    "title": Albedo, 
+    "title": "Albedo", 
     "text": "Albedo (meaning 'whiteness') is the measure of the diffuse reflection of solar radiation out of the total solar radiation received by an astronomical body (e.g. a planet like Earth). It is dimensionless and measured on a scale from 0 (corresponding to a black body that absorbs all incident radiation) to 1 (corresponding to a body that reflects all incident radiation)."
 }
 ```
 
-The statistics of the MIRACL corpora:
+The `docid` has the schema `X#Y`, where all passages with the same `X` come from the same Wikipedia article, whereas `Y` denotes the passage within that article, numbered sequentially.
+The `text` field contains the text of the passage.
+The `title` field contains the name of the article the passage comes from.
+
+Statistics of the MIRACL corpora:
 
 | Language        | # of Passage | # of Docs | Links |
 |:----------------|-------------:|----------:|:------|
