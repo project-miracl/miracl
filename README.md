@@ -38,24 +38,24 @@ The `title` field contains the name of the article the passage comes from.
 
 Statistics of the MIRACL corpora:
 
-| Language        | # of Passages | # of Articles | Links |
-|:----------------|--------------:|--------------:|:------|
-| Arabic (ar)     |     2,061,414 |       656,982 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ar)] |
-| Bengali (bn)    |       297,265 |        63,762 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-bn)] |
-| English (en)    |    32,893,221 |     5,758,285 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-en)] |
-| Spanish (es)    |    10,373,953 |     1,669,181 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-es)] |
-| Persian (fa)    |     2,207,172 |       857,827 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fa)] |
-| Finnish (fi)    |     1,883,509 |       447,815 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fi)] |
-| French (fr)     |    14,636,953 |     2,325,608 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fr)] |
-| Hindi (hi)      |       506,264 |       148,107 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-hi)] |
-| Indonesian (id) |     1,446,315 |       446,330 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-id)] |
-| Japanese (ja)   |     6,953,614 |     1,133,444 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ja)] |
-| Korean (ko)     |     1,486,752 |       437,373 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ko)] |
-| Russian (ru)    |     9,543,918 |     1,476,045 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ru)] |
-| Swahili (sw)    |       131,924 |        47,793 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-sw)] |
-| Telugu (te)     |       518,079 |        66,353 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-te)] |
-| Thai (th)       |       542,166 |       128,179 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-th)] |
-| Chinese (zh)    |     4,934,368 |     1,246,389 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-zh)] |
+| Language        | # of Passages | # of Articles | Links | Raw Wiki Dump |
+|:----------------|--------------:|--------------:|:------|:------|
+| Arabic (ar)     |     2,061,414 |       656,982 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ar)] | [[Wiki Dump](https://archive.org/download/arwiki-20190201/arwiki-20190201-pages-articles-multistream.xml.bz2)]
+| Bengali (bn)    |       297,265 |        63,762 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-bn)] | [[Wiki Dump](https://archive.org/download/bnwiki-20190201/bnwiki-20190201-pages-articles-multistream.xml.bz2)]
+| English (en)    |    32,893,221 |     5,758,285 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-en)] | [[Wiki Dump](https://archive.org/download/enwiki-20190201/enwiki-20190201-pages-articles-multistream.xml.bz2)]
+| Spanish (es)    |    10,373,953 |     1,669,181 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-es)] | [[Wiki Dump](https://archive.org/download/eswiki-20220301/eswiki-20220301-pages-articles-multistream.xml.bz2)]
+| Persian (fa)    |     2,207,172 |       857,827 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fa)] | [[Wiki Dump](https://archive.org/download/fawiki-20220301/fawiki-20220301-pages-articles-multistream.xml.bz2)]
+| Finnish (fi)    |     1,883,509 |       447,815 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fi)] | [[Wiki Dump](https://archive.org/download/fiwiki-20190201/fiwiki-20190201-pages-articles-multistream.xml.bz2)]
+| French (fr)     |    14,636,953 |     2,325,608 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fr)] | [[Wiki Dump](https://archive.org/download/frwiki-20220301/frwiki-20220301-pages-articles-multistream.xml.bz2)]
+| Hindi (hi)      |       506,264 |       148,107 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-hi)] | [[Wiki Dump](https://archive.org/download/hiwiki-20220301/hiwiki-20220301-pages-articles-multistream.xml.bz2)]
+| Indonesian (id) |     1,446,315 |       446,330 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-id)] | [[Wiki Dump](https://archive.org/download/idwiki-20190201/idwiki-20190201-pages-articles-multistream.xml.bz2)]
+| Japanese (ja)   |     6,953,614 |     1,133,444 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ja)] | [[Wiki Dump](https://archive.org/download/jawiki-20190201/jawiki-20190201-pages-articles-multistream.xml.bz2)]
+| Korean (ko)     |     1,486,752 |       437,373 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ko)] | [[Wiki Dump](https://archive.org/download/kowiki-20190201/kowiki-20190201-pages-articles-multistream.xml.bz2)]
+| Russian (ru)    |     9,543,918 |     1,476,045 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ru)] | [[Wiki Dump](https://archive.org/download/ruwiki-20190201/ruwiki-20190201-pages-articles-multistream.xml.bz2)]
+| Swahili (sw)    |       131,924 |        47,793 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-sw)] | [[Wiki Dump](https://archive.org/download/swwiki-20190201/swwiki-20190201-pages-articles-multistream.xml.bz2)]
+| Telugu (te)     |       518,079 |        66,353 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-te)] | [[Wiki Dump](https://archive.org/download/tewiki-20190201/tewiki-20190201-pages-articles-multistream.xml.bz2)]
+| Thai (th)       |       542,166 |       128,179 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-th)] | [[Wiki Dump](https://archive.org/download/thwiki-20190101/thwiki-20190101-pages-articles-multistream.xml.bz2)]
+| Chinese (zh)    |     4,934,368 |     1,246,389 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-zh)] | [[Wiki Dump](https://archive.org/download/zhwiki-20220301/zhwiki-20220301-pages-articles-multistream.xml.bz2)]
 
 
 ## Relevance Judgments
