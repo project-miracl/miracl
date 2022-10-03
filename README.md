@@ -40,7 +40,7 @@ Statistics of the MIRACL corpora:
 
 | Language        | # of Passages | # of Articles | Links | Raw Wiki Dump |
 |:----------------|--------------:|--------------:|:------|:------|
-| Arabic (ar)     |     2,061,414 |       656,982 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ar)] | [[Wiki Dump](https://archive.org/download/arwiki-20190201/arwiki-20190201-pages-articles-multistream.xml.bz2)]
+| Arabic (ar)     |     2,061,414 |       656,982 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ar) [🌏](https://archive.org/download/arwiki-20190201/arwiki-20190201-pages-articles-multistream.xml.bz2)
 | Bengali (bn)    |       297,265 |        63,762 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-bn)] | [[Wiki Dump](https://archive.org/download/bnwiki-20190201/bnwiki-20190201-pages-articles-multistream.xml.bz2)]
 | English (en)    |    32,893,221 |     5,758,285 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-en)] | [[Wiki Dump](https://archive.org/download/enwiki-20190201/enwiki-20190201-pages-articles-multistream.xml.bz2)]
 | Spanish (es)    |    10,373,953 |     1,669,181 | [[Direct Link](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-es)] | [[Wiki Dump](https://archive.org/download/eswiki-20220301/eswiki-20220301-pages-articles-multistream.xml.bz2)]
