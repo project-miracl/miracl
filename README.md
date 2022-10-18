@@ -65,7 +65,7 @@ The `title` field contains the name of the article the passage comes from.
 
 ## Topics and Relevance Judgments
 
-The topics and judgement of training and development set are now available on [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl)! It is now hosted as a [gated dataset](https://huggingface.co/docs/hub/datasets-gated), where you need to share the name, affiliation and email to get access to the dataset. This is for the ease of announcing any future update about the dataset, and we will not disclose the information to any third-party.
+The topics and judgement of training and development set are now available on [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl)! 
 
 The topics are saved in standard `.tsv` file, with each line to be:
 ```
@@ -84,8 +84,8 @@ qid Q0 docid relevance
 The following table contains the number of queries (`#Q`) and the number of judgments (`#J`) in each (language, split) combination,
 where the judgments include both positive and negative labels.
 
-| Lang | Train |        |  Dev  |        |
-|:----:|:-----:|:------:|:-----:|:------:|
+| Language | Train |        |  Dev  |        |
+|:----:|------:|-------:|------:|-------:|
 |      | **#Q**| **#J** |**#Q** |**#J**  |
 |  ar  | 3,495 | 25,382 | 2,896 | 29,197 |
 |  bn  | 1,631 | 16,754 |   411 |  4,206 |
@@ -103,6 +103,7 @@ where the judgments include both positive and negative labels.
 |  te  | 3,452 | 18,608 |   828 |  1,606 |
 |  th  | 2,972 | 21,293 |   733 |  7,573 |
 |  zh  | 1,312 | 13,113 |   393 |  3,928 |
+| **Total** | 40,203 | 343,177 | 13,071 | 126,076 |
 
 </details>
 
