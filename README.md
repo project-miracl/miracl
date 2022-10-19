@@ -6,6 +6,8 @@ MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of La
 The website for the event can be found at [`miracl.ai`](http://miracl.ai).
 This repo provides pointers to accessing the actual dataset.
 
+The paper is now on arXiv: [Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages](https://arxiv.org/abs/2210.09984)
+
 If you're interested in hearing updates, join/follow us here!
 - 📬 [Mailing list](https://forms.gle/aCbjRQ9CPeXViWcaA)
 - 💬 [Slack Workspace](https://join.slack.com/t/slack-zlr3806/shared_invite/zt-1i2xm1602-kSoVt0MUNUSDln_VMoMHDg)
@@ -108,7 +110,6 @@ where the judgments include both positive and negative labels.
 </details>
 
 
-
 ## Baselines
 At this point we have release baselines using BM25, mDPR and hybrid of the two in the paper. 
 Reuslts of BM25 and mDPR could be reproduced using [Pyserini](https://github.com/castorini/pyserini).
@@ -117,6 +118,16 @@ To reproduce our scores:
 1. Install the development version of Pyserini following the [instructions](https://github.com/castorini/pyserini/blob/master/docs/installation.md#development-installation).
 2. Manually place all topics and qrels files under `tools/topics-and-qrels`. The topics and qrels files can be found under `miracl-v1.0-${lang}/topics` and `miracl-v1.0-${lang}/qrels` in the [HuggingFace dataset](https://huggingface.co/datasets/miracl/miracl). 
 3. Following the commands in our [2-click-reproduction (2CR) website](https://castorini.github.io/pyserini/2cr/miracl.html).
+
+## Citation
+```
+@article{miracl,
+      title={Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages}, 
+      author={Xinyu Zhang and Nandan Thakur and Odunayo Ogundepo and Ehsan Kamalloo and David Alfonso-Hermelo and Xiaoguang Li and Qun Liu and Mehdi Rezagholizadeh and Jimmy Lin},
+      year={2022},
+      journal={arXiv:2210.09984},
+}
+```
 
 ## Contact
 
