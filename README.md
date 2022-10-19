@@ -120,7 +120,7 @@ To reproduce our baselines:
 ## Citation
 ```
 @article{miracl,
-      title={Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages}, 
+      title={Making a {MIRACL}: Multilingual Information Retrieval Across a Continuum of Languages}, 
       author={Xinyu Zhang and Nandan Thakur and Odunayo Ogundepo and Ehsan Kamalloo and David Alfonso-Hermelo and Xiaoguang Li and Qun Liu and Mehdi Rezagholizadeh and Jimmy Lin},
       year={2022},
       journal={arXiv:2210.09984},
