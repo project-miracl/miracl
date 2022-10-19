@@ -6,7 +6,7 @@ MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of La
 The website for the event can be found at [`miracl.ai`](http://miracl.ai).
 This repo provides pointers to accessing the actual dataset.
 
-The paper is now on arXiv: [Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages](https://arxiv.org/abs/2210.09984)
+For more details, check out our arXiv paper: [Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages](https://arxiv.org/abs/2210.09984).
 
 If you're interested in hearing updates, join/follow us here!
 - 📬 [Mailing list](https://forms.gle/aCbjRQ9CPeXViWcaA)
@@ -19,6 +19,28 @@ The corpora used in MIRACL is available as a [HuggingFace Dataset](https://huggi
 So far, we have released data for the 16 "known languages".
 The remaining 2 "surprise languages" will not be released until later.
 See our release schedule [on the MIRACL website](http://miracl.ai).
+
++ 🤗 = direct link to HuggingFace Dataset
++ 🌏 = link to raw wiki dumps
+
+| Language        | # of Passages | # of Articles | Links |
+|:----------------|--------------:|--------------:|:------|
+| Arabic (ar)     |     2,061,414 |       656,982 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ar) [🌏](https://archive.org/download/arwiki-20190201/arwiki-20190201-pages-articles-multistream.xml.bz2)
+| Bengali (bn)    |       297,265 |        63,762 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-bn) [🌏](https://archive.org/download/bnwiki-20190201/bnwiki-20190201-pages-articles-multistream.xml.bz2)
+| English (en)    |    32,893,221 |     5,758,285 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-en) [🌏](https://archive.org/download/enwiki-20190201/enwiki-20190201-pages-articles-multistream.xml.bz2)
+| Spanish (es)    |    10,373,953 |     1,669,181 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-es) [🌏](https://archive.org/download/eswiki-20220301/eswiki-20220301-pages-articles-multistream.xml.bz2)
+| Persian (fa)    |     2,207,172 |       857,827 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fa) [🌏](https://archive.org/download/fawiki-20220301/fawiki-20220301-pages-articles-multistream.xml.bz2)
+| Finnish (fi)    |     1,883,509 |       447,815 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fi) [🌏](https://archive.org/download/fiwiki-20190201/fiwiki-20190201-pages-articles-multistream.xml.bz2)
+| French (fr)     |    14,636,953 |     2,325,608 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fr) [🌏](https://archive.org/download/frwiki-20220301/frwiki-20220301-pages-articles-multistream.xml.bz2)
+| Hindi (hi)      |       506,264 |       148,107 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-hi) [🌏](https://archive.org/download/hiwiki-20220301/hiwiki-20220301-pages-articles-multistream.xml.bz2)
+| Indonesian (id) |     1,446,315 |       446,330 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-id) [🌏](https://archive.org/download/idwiki-20190201/idwiki-20190201-pages-articles-multistream.xml.bz2)
+| Japanese (ja)   |     6,953,614 |     1,133,444 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ja) [🌏](https://archive.org/download/jawiki-20190201/jawiki-20190201-pages-articles-multistream.xml.bz2)
+| Korean (ko)     |     1,486,752 |       437,373 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ko) [🌏](https://archive.org/download/kowiki-20190201/kowiki-20190201-pages-articles-multistream.xml.bz2)
+| Russian (ru)    |     9,543,918 |     1,476,045 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ru) [🌏](https://archive.org/download/ruwiki-20190201/ruwiki-20190201-pages-articles-multistream.xml.bz2)
+| Swahili (sw)    |       131,924 |        47,793 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-sw) [🌏](https://archive.org/download/swwiki-20190201/swwiki-20190201-pages-articles-multistream.xml.bz2)
+| Telugu (te)     |       518,079 |        66,353 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-te) [🌏](https://archive.org/download/tewiki-20190201/tewiki-20190201-pages-articles-multistream.xml.bz2)
+| Thai (th)       |       542,166 |       128,179 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-th) [🌏](https://archive.org/download/thwiki-20190101/thwiki-20190101-pages-articles-multistream.xml.bz2)
+| Chinese (zh)    |     4,934,368 |     1,246,389 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-zh) [🌏](https://archive.org/download/zhwiki-20220301/zhwiki-20220301-pages-articles-multistream.xml.bz2)
 
 The corpus for each language is prepared from a Wikipedia dump, where we keep only the plain text and discard images, tables, etc.
 Each article is segmented into multiple passages using [WikiExtractor](https://github.com/attardi/wikiextractor) based on natural discourse units (e.g., `\n\n` in the wiki markup).
@@ -41,50 +63,11 @@ The `docid` has the schema `X#Y`, where all passages with the same `X` come from
 The `text` field contains the text of the passage.
 The `title` field contains the name of the article the passage comes from.
 
-<details>
-<summary>Statistics of the MIRACL corpora:</summary>
-
-| Language        | # of Passages | # of Articles | Links | Raw Wiki Dump |
-|:----------------|--------------:|--------------:|:------|:------|
-| Arabic (ar)     |     2,061,414 |       656,982 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ar) | [🌏](https://archive.org/download/arwiki-20190201/arwiki-20190201-pages-articles-multistream.xml.bz2)
-| Bengali (bn)    |       297,265 |        63,762 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-bn) | [🌏](https://archive.org/download/bnwiki-20190201/bnwiki-20190201-pages-articles-multistream.xml.bz2)
-| English (en)    |    32,893,221 |     5,758,285 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-en) | [🌏](https://archive.org/download/enwiki-20190201/enwiki-20190201-pages-articles-multistream.xml.bz2)
-| Spanish (es)    |    10,373,953 |     1,669,181 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-es) | [🌏](https://archive.org/download/eswiki-20220301/eswiki-20220301-pages-articles-multistream.xml.bz2)
-| Persian (fa)    |     2,207,172 |       857,827 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fa) | [🌏](https://archive.org/download/fawiki-20220301/fawiki-20220301-pages-articles-multistream.xml.bz2)
-| Finnish (fi)    |     1,883,509 |       447,815 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fi) | [🌏](https://archive.org/download/fiwiki-20190201/fiwiki-20190201-pages-articles-multistream.xml.bz2)
-| French (fr)     |    14,636,953 |     2,325,608 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-fr) | [🌏](https://archive.org/download/frwiki-20220301/frwiki-20220301-pages-articles-multistream.xml.bz2)
-| Hindi (hi)      |       506,264 |       148,107 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-hi) | [🌏](https://archive.org/download/hiwiki-20220301/hiwiki-20220301-pages-articles-multistream.xml.bz2)
-| Indonesian (id) |     1,446,315 |       446,330 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-id) | [🌏](https://archive.org/download/idwiki-20190201/idwiki-20190201-pages-articles-multistream.xml.bz2)
-| Japanese (ja)   |     6,953,614 |     1,133,444 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ja) | [🌏](https://archive.org/download/jawiki-20190201/jawiki-20190201-pages-articles-multistream.xml.bz2)
-| Korean (ko)     |     1,486,752 |       437,373 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ko) | [🌏](https://archive.org/download/kowiki-20190201/kowiki-20190201-pages-articles-multistream.xml.bz2)
-| Russian (ru)    |     9,543,918 |     1,476,045 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-ru) | [🌏](https://archive.org/download/ruwiki-20190201/ruwiki-20190201-pages-articles-multistream.xml.bz2)
-| Swahili (sw)    |       131,924 |        47,793 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-sw) | [🌏](https://archive.org/download/swwiki-20190201/swwiki-20190201-pages-articles-multistream.xml.bz2)
-| Telugu (te)     |       518,079 |        66,353 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-te) | [🌏](https://archive.org/download/tewiki-20190201/tewiki-20190201-pages-articles-multistream.xml.bz2)
-| Thai (th)       |       542,166 |       128,179 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-th) | [🌏](https://archive.org/download/thwiki-20190101/thwiki-20190101-pages-articles-multistream.xml.bz2)
-| Chinese (zh)    |     4,934,368 |     1,246,389 | [🤗](https://huggingface.co/datasets/miracl/miracl-corpus/tree/main/miracl-corpus-v1.0-zh) | [🌏](https://archive.org/download/zhwiki-20220301/zhwiki-20220301-pages-articles-multistream.xml.bz2)
-</details>
-
-
 ## Topics and Relevance Judgments
 
-The topics and judgement of training and development set are now available on [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl)! 
+Topics (= queries) and relevance judgments (= relevance labels) of the MIRACL training sets and development sets for each of the 16 known languages are  available on [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl)! 
 
-The topics are saved in standard `.tsv` file, with each line to be:
-```
-qid\tquery
-```
-
-The qrels are saved in standard TREC format, with each line to be:
-```
-qid Q0 docid relevance
-```
-
-<!-- The data (corpora, topics, and judgement) are also accessible using HuggingFace datasets interface. Please read the dataset card for details.  -->
-
-<details>
-<summary>Statistics of the MIRACL topics and qrels:</summary>
-The following table contains the number of queries (`#Q`) and the number of judgments (`#J`) in each (language, split) combination,
-where the judgments include both positive and negative labels.
+The following table contains the number of queries (`#Q`) and the number of judgments (`#J`) in each (language, split) combination, where the judgments include both positive and negative labels.
 
 | Language | Train |        |  Dev  |        |
 |:----:|------:|-------:|------:|-------:|
@@ -107,14 +90,25 @@ where the judgments include both positive and negative labels.
 |  zh  | 1,312 | 13,113 |   393 |  3,928 |
 | **Total** | 40,203 | 343,177 | 13,071 | 126,076 |
 
-</details>
+The topics are formatted in TSV, with each line organized as follows:
 
+```
+qid\tquery
+```
+
+The relevance judgments are formatted in standard TREC qrels format, as follows:
+
+```
+qid Q0 docid relevance
+```
 
 ## Baselines
-At this point we have release baselines using BM25, mDPR and hybrid of the two in the paper. 
+
+We have released baselines using BM25, mDPR, and hybrid of the two, as described in our [arXiv paper](https://arxiv.org/abs/2210.09984). 
 Reuslts of BM25 and mDPR could be reproduced using [Pyserini](https://github.com/castorini/pyserini).
 
-To reproduce our scores:
+To reproduce our baselines:
+
 1. Install the development version of Pyserini following the [instructions](https://github.com/castorini/pyserini/blob/master/docs/installation.md#development-installation).
 2. Manually place all topics and qrels files under `tools/topics-and-qrels`. The topics and qrels files can be found under `miracl-v1.0-${lang}/topics` and `miracl-v1.0-${lang}/qrels` in the [HuggingFace dataset](https://huggingface.co/datasets/miracl/miracl). 
 3. Following the commands in our [2-click-reproduction (2CR) website](https://castorini.github.io/pyserini/2cr/miracl.html).
