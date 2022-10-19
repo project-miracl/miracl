@@ -4,21 +4,19 @@
 
 MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of Languages) is an WSDM 2023 Cup challenge that focuses on search across 18 different languages, which collectively encompass over three billion native speakers around the world.
 The website for the event can be found at [`miracl.ai`](http://miracl.ai).
-This repo provides pointers to accessing the actual dataset.
+This repo provides pointers to access the actual dataset.
 
 For more details, check out our arXiv paper: [Making a MIRACL: Multilingual Information Retrieval Across a Continuum of Languages](https://arxiv.org/abs/2210.09984).
 
-If you're interested in hearing updates, join/follow us here!
+Connect with us!
 - 📬 [Mailing list](https://forms.gle/aCbjRQ9CPeXViWcaA)
 - 💬 [Slack Workspace](https://join.slack.com/t/slack-zlr3806/shared_invite/zt-1i2xm1602-kSoVt0MUNUSDln_VMoMHDg)
 - 📣 [Twitter](https://twitter.com/project_miracl?s=21&t=Qf9LrVerhhN1hsXs1gdWhw)
 
 ## Corpora
 
-The corpora used in MIRACL is available as a [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl-corpus).
-So far, we have released data for the 16 "known languages".
-The remaining 2 "surprise languages" will not be released until later.
-See our release schedule [on the MIRACL website](http://miracl.ai).
+The Wikipedia corpora used in MIRACL are available as a [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl-corpus).
+So far, we have released corpora for the 16 "known languages"; the remaining 2 "surprise languages" will be revealed later!
 
 + 🤗 = direct link to HuggingFace Dataset
 + 🌏 = link to raw wiki dumps
