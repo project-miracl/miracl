@@ -67,28 +67,30 @@ The `title` field contains the name of the article the passage comes from.
 
 Topics (= queries) and relevance judgments (= relevance labels) of the MIRACL training sets and development sets for each of the 16 known languages are  available on [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl)! 
 
-The following table contains the number of queries (`#Q`) and the number of judgments (`#J`) in each (language, split) combination, where the judgments include both positive and negative labels.
+🤗 = direct link to HuggingFace Dataset
 
-| Language | Train |        |  Dev  |        |
-|:----:|------:|-------:|------:|-------:|
-|      | **#Q**| **#J** |**#Q** |**#J**  |
-|  ar  | 3,495 | 25,382 | 2,896 | 29,197 |
-|  bn  | 1,631 | 16,754 |   411 |  4,206 |
-|  en  | 2,863 | 29,416 |   799 |  8,350 |
-|  es  | 2,162 | 21,531 |   648 |  6,443 |
-|  fa  | 2,107 | 21,844 |   632 |  6,571 |
-|  fi  | 2,897 | 20,350 | 1,271 | 12,008 |
-|  fr  | 1,143 | 11,426 |   343 |  3,429 |
-|  hi  | 1,169 | 11,668 |   350 |  3,494 |
-|  id  | 4,071 | 41,358 |   960 |  9,668 |
-|  ja  | 3,477 | 34,387 |   860 |  8,354 |
-|  ko  |   868 | 12,767 |   213 |  3,057 |
-|  ru  | 4,683 | 33,921 | 1,252 | 13,100 |
-|  sw  | 1,901 |  9,359 |   482 |  5,092 |
-|  te  | 3,452 | 18,608 |   828 |  1,606 |
-|  th  | 2,972 | 21,293 |   733 |  7,573 |
-|  zh  | 1,312 | 13,113 |   393 |  3,928 |
-| **Total** | 40,203 | 343,177 | 13,071 | 126,076 |
+|  | Train |        |  Dev  |        |  |
+|:-----|------:|-------:|------:|-------:|:-----|
+| **Language**     | **#Q**| **#J** |**#Q** |**#J**  | **Links** |
+| Arabic (ar)     | 3,495 | 25,382 | 2,896 | 29,197 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-ar) |
+| Bengali (bn)    | 1,631 | 16,754 |   411 |  4,206 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-bn) |
+| English (en)    | 2,863 | 29,416 |   799 |  8,350 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-en) |
+| Spanish (es)    | 2,162 | 21,531 |   648 |  6,443 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-es) |
+| Persian (fa)    | 2,107 | 21,844 |   632 |  6,571 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-fa) |
+| Finnish (fi)    | 2,897 | 20,350 | 1,271 | 12,008 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-fi) |
+| French (fr)     | 1,143 | 11,426 |   343 |  3,429 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-fr) |
+| Hindi (hi)      | 1,169 | 11,668 |   350 |  3,494 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-hi) |
+| Indonesian (id) | 4,071 | 41,358 |   960 |  9,668 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-id) |
+| Japanese (ja)   | 3,477 | 34,387 |   860 |  8,354 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-ja) |
+| Korean (ko)     |   868 | 12,767 |   213 |  3,057 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-ko) |
+| Russian (ru)    | 4,683 | 33,921 | 1,252 | 13,100 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-ru) |
+| Swahili (sw)    | 1,901 |  9,359 |   482 |  5,092 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-sw) |
+| Telugu (te)     | 3,452 | 18,608 |   828 |  1,606 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-te) |
+| Thai (th)       | 2,972 | 21,293 |   733 |  7,573 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-th) |
+| Chinese (zh)    | 1,312 | 13,113 |   393 |  3,928 | [🤗](https://huggingface.co/datasets/miracl/miracl/tree/main/miracl-v1.0-zh) |
+| **Total**       | 40,203 | 343,177 | 13,071 | 126,076 |
+
+The above table shows the number of queries (`#Q`) and the number of judgments (`#J`) in each (language, split) combination, where the judgments include both positive and negative labels.
 
 The topics are formatted in TSV, with each line organized as follows:
 
