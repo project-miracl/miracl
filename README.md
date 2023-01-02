@@ -3,15 +3,6 @@
     <img style="vertical-align:middle" width="2000" alt="image" src="https://user-images.githubusercontent.com/31640436/210273474-7697ab15-c638-4513-8c80-12886941f520.png">
 </h1>
 
-<h4 align="center">
-    <p>
-        <a href="https://arxiv.org/abs/2210.09984">Paper</a> |
-        <a href="#baselines">Baselines</a> |
-        <a href="https://huggingface.co/datasets/miracl">HuggingFace</a> |
-        <a href="https://eval.ai/web/challenges/challenge-page/1881/leaderboard">Leaderboard</a>
-    </p>
-</h4>
-
 <p align="center">
     <a href="https://www.python.org/">
             <img alt="Build" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple">
@@ -23,6 +14,16 @@
         <img alt="Downloads" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
     </a>
 </p>
+
+<h4 align="center">
+    <p>
+        <a href="https://arxiv.org/abs/2210.09984">Paper</a> |
+        <a href="#-baselines">Baselines</a> |
+        <a href="https://huggingface.co/datasets/miracl">HuggingFace</a> |
+        <a href="https://eval.ai/web/challenges/challenge-page/1881/leaderboard">Leaderboard</a>
+    </p>
+</h4>
+
 
 
 ## 🙌 Overview
