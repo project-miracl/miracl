@@ -1,6 +1,31 @@
-# MIRACL 🌍🙌🌏
+<!-- <p align="center"> <span><font size="32"> <b> MIRACL 🌍🙌🌏 </b></font></span></p> -->
+<h1 align="center"> 
+    <img style="vertical-align:middle" width="2000" alt="image" src="https://user-images.githubusercontent.com/31640436/210273474-7697ab15-c638-4513-8c80-12886941f520.png">
+</h1>
 
-## Overview
+<h4 align="center">
+    <p>
+        <a href="https://arxiv.org/abs/2210.09984">Paper</a> |
+        <a href="#baselines">Baselines</a> |
+        <a href="https://huggingface.co/datasets/miracl">HuggingFace</a> |
+        <a href="https://eval.ai/web/challenges/challenge-page/1881/leaderboard">Leaderboard</a>
+    </p>
+</h4>
+
+<p align="center">
+    <a href="https://www.python.org/">
+            <img alt="Build" src="https://img.shields.io/badge/Made%20with-Python-1f425f.svg?color=purple">
+    </a>
+    <a href="https://github.com/beir-cellar/beir/blob/master/LICENSE">
+        <img alt="License" src="https://img.shields.io/github/license/beir-cellar/beir.svg?color=green">
+    </a>
+    <a href="https://github.com/beir-cellar/beir/">
+        <img alt="Downloads" src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103">
+    </a>
+</p>
+
+
+## 🙌 Overview
 
 MIRACL 🌍🙌🌏 (Multilingual Information Retrieval Across a Continuum of Languages) is an WSDM 2023 Cup challenge that focuses on search across 18 different languages, which collectively encompass over three billion native speakers around the world.
 The website for the event can be found at [`miracl.ai`](http://miracl.ai).
@@ -13,7 +38,7 @@ Connect with us!
 - 💬 [Slack Workspace](https://join.slack.com/t/miraclgroup/shared_invite/zt-1m0xcgpdh-Ibz0LftLvwdUQt94MeU6Bw)
 - 📣 [Twitter](https://twitter.com/project_miracl?s=21&t=Qf9LrVerhhN1hsXs1gdWhw)
 
-## Corpora
+## 🙌 Corpora
 
 The Wikipedia corpora used in MIRACL are available as a [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl-corpus).
 So far, we have released corpora for the 16 "known languages"; the remaining 2 "surprise languages" will be revealed later!
@@ -61,7 +86,7 @@ The `docid` has the schema `X#Y`, where all passages with the same `X` come from
 The `text` field contains the text of the passage.
 The `title` field contains the name of the article the passage comes from.
 
-## Topics and Relevance Judgments
+## 🙌 Topics and Relevance Judgments
 
 Topics (= queries) and relevance judgments (= relevance labels) of the MIRACL training sets and development sets for each of the 16 known languages are  available on [HuggingFace Dataset](https://huggingface.co/datasets/miracl/miracl)! 
 
@@ -102,7 +127,7 @@ The relevance judgments are formatted in standard TREC qrels format, as follows:
 qid Q0 docid relevance
 ```
 
-## Baselines
+## 🙌 Baselines
 
 We have released baselines using BM25, mDPR, and hybrid of the two, as described in our [arXiv paper](https://arxiv.org/abs/2210.09984). 
 Reuslts of BM25 and mDPR could be reproduced using [Pyserini](https://github.com/castorini/pyserini).
@@ -117,7 +142,8 @@ To reproduce our baselines:
     ```
 3. Following the commands in our [2-click-reproduction (2CR) website](https://castorini.github.io/pyserini/2cr/miracl.html).
 
-## Citation
+## 🙌 Citation
+If you find this dataset and repository helpful, please cite MIRACL as follows:
 ```
 @article{miracl,
       title={Making a {MIRACL}: Multilingual Information Retrieval Across a Continuum of Languages}, 
@@ -127,6 +153,6 @@ To reproduce our baselines:
 }
 ```
 
-## Contact
+## 🙌 Contact
 
 If you have any questions, feel free to email us (project.miracl [at] gmail.com) or start a Github issue under this repository. 
