@@ -135,7 +135,7 @@ Reuslts of BM25 and mDPR could be reproduced using [Pyserini](https://github.com
 
 To reproduce our baselines:
 
-1. Install the development version of Pyserini following [these instructions](https://github.com/castorini/pyserini/blob/master/docs/installation.md#development-installation).
+1. Install the development version of Pyserini following [these instructions](https://github.com/castorini/pyserini/blob/master/docs/installation.md#development-installation). **(To run baselines on surprise languages, you'll need to re-build both Anserini and Pyserini)**
 2. Manually place all topics and qrels files under `tools/topics-and-qrels`. The topics and qrels files can be found under `miracl-v1.0-${lang}/topics` and `miracl-v1.0-${lang}/qrels` in the [HuggingFace dataset](https://huggingface.co/datasets/miracl/miracl). 
     ```
     git clone https://huggingface.co/datasets/miracl/miracl
