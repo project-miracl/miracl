@@ -36,7 +36,7 @@ For more details, check out our arXiv paper: [Making a MIRACL: Multilingual Info
 
 Connect with us!
 - 📬 [Mailing list](https://forms.gle/aCbjRQ9CPeXViWcaA)
-- 💬 [Slack Workspace](https://join.slack.com/t/miraclgroup/shared_invite/zt-1m0xcgpdh-Ibz0LftLvwdUQt94MeU6Bw)
+- 💬 [Slack Workspace](https://join.slack.com/t/miraclgroup/shared_invite/zt-1ph43qw40-gvoQI~jc_g2EPb_EgCF4Dg)
 - 📣 [Twitter](https://twitter.com/project_miracl?s=21&t=Qf9LrVerhhN1hsXs1gdWhw)
 
 ## 🙌 Corpora
