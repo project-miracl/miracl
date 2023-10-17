@@ -17,7 +17,7 @@
 
 <h4 align="center">
     <p>
-        <a href="https://arxiv.org/abs/2210.09984">Paper</a> |
+        <a href="https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00595/117438/MIRACL-A-Multilingual-Retrieval-Dataset-Covering">Paper</a> |
         <a href="#-baselines">Baselines</a> |
         <a href="https://huggingface.co/datasets/miracl">HuggingFace</a> |
         <a href="https://eval.ai/web/challenges/challenge-page/1881/leaderboard">Leaderboard</a>
@@ -130,6 +130,7 @@ qid Q0 docid relevance
 
 ## 🙌 Baselines
 
+### Reproduce the results with Pyserini:
 We have released baselines using BM25, mDPR, and hybrid of the two, as described in our [arXiv paper](https://arxiv.org/abs/2210.09984). 
 Reuslts of BM25 and mDPR could be reproduced using [Pyserini](https://github.com/castorini/pyserini).
 
@@ -143,15 +144,29 @@ To reproduce our baselines:
     ```
 3. Following the commands in our [2-click-reproduction (2CR) website](https://castorini.github.io/pyserini/2cr/miracl.html).
 
+
+### Checkpoints for dense models:
+* mDPR (w/o fine-tuning on MIRACL): `castorini/mdpr-tied-pft-msmarco`
+* mContriever (w/o fine-tuning on MIRACL): `facebook/mcontriever-msmarco`
+* mDPR (fine-tuned on MIRACL): `castorini/mdpr-tied-pft-msmarco-ft-miracl-{lang}`, where `{lang}` is the two-letter ISO code (e.g., `ar`, `bn`, ...)
+
 ## 🙌 Citation
 If you find this dataset and repository helpful, please cite MIRACL as follows:
 ```
-@article{miracl,
-      title={Making a {MIRACL}: Multilingual Information Retrieval Across a Continuum of Languages}, 
-      author={Xinyu Zhang and Nandan Thakur and Odunayo Ogundepo and Ehsan Kamalloo and David Alfonso-Hermelo and Xiaoguang Li and Qun Liu and Mehdi Rezagholizadeh and Jimmy Lin},
-      year={2022},
-      journal={arXiv:2210.09984},
+@article{10.1162/tacl_a_00595,
+    author = {Zhang, Xinyu and Thakur, Nandan and Ogundepo, Odunayo and Kamalloo, Ehsan and Alfonso-Hermelo, David and Li, Xiaoguang and Liu, Qun and Rezagholizadeh, Mehdi and Lin, Jimmy},
+    title = "{MIRACL: A Multilingual Retrieval Dataset Covering 18 Diverse Languages}",
+    journal = {Transactions of the Association for Computational Linguistics},
+    volume = {11},
+    pages = {1114-1131},
+    year = {2023},
+    month = {09},
+    issn = {2307-387X},
+    doi = {10.1162/tacl_a_00595},
+    url = {https://doi.org/10.1162/tacl\_a\_00595},
+    eprint = {https://direct.mit.edu/tacl/article-pdf/doi/10.1162/tacl\_a\_00595/2157340/tacl\_a\_00595.pdf},
 }
+
 ```
 
 ## 🙌 Contact
