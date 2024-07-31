@@ -144,6 +144,7 @@ To reproduce our baselines:
     ```
 3. Following the commands in our [2-click-reproduction (2CR) website](https://castorini.github.io/pyserini/2cr/miracl.html).
 
+Note that the 2CR above is only for reproducing the search stage, where the indexes are pre-computed and loaded automatically by Pyserini. If you are interested in reproducing the indexing stage, please refer to [this](https://github.com/castorini/pyserini/blob/master/pyserini/resources/index-metadata/faiss.miracl-v1.0.20221004.2b2856.mdpr-tied-pft-msmarco-ft-all.README.md) documentation: 
 
 ### Checkpoints for dense models:
 * mDPR (w/o fine-tuning on MIRACL): `castorini/mdpr-tied-pft-msmarco`
